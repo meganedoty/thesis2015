@@ -1,2 +1,3 @@
 # thesis2015
-Making shit to figure out what I want to make.
+The thing where I do the thing to find out what thing I want to make
+\#npart \#npsocial
