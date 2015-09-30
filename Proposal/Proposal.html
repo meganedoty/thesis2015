@@ -179,6 +179,26 @@
                 <h5>Jason Santa Maria</h5>
                 <p>Type on the web has come a long way in recent years. Published by A Book Apart, <em>On Web Typography</em> goes over practices, principles, and reasoning in writing code for good type on the web. The book is written from a technical point of view, allowing a mélange of prior design knowledge to balance with logical reasoning.</p>
             </div>
+            <div class="clearfix"></div>
+            
+            <div class="text-center" style="margin-bottom: 70px; margin-top: 20px;">
+                <button type="button" class="btn btn-success text-center" id="yay">You made it to the end</button>
+                <p style="display: none;" class="btn-message">yay!</p>
+            </div>
         </div><!-- container-->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        
+        (function($) {
+            $(function() {
+                $('#yay').on('click', function(e) {
+                    var self= this;
+                    $('.btn-message').slideToggle();
+                });
+             });
+        })(jQuery);
+        </script>
      </body>
 </html>
