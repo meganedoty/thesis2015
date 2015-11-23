@@ -1,13 +1,38 @@
-body {
+$key-yellow: #ffd63a;
+$key-green: #b5f6c9;
+$charcoal: #222;
+
+body, html {
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
     font-family: tk-warnock-pro, 'warnock pro';
     font-weight: 600;
-    color: #333;
-    
+    color: #fff;
+    background-color: $charcoal;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
 }
 
 .jumbotron {
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 50vw;
     height: 30vh;
     margin: auto;
     text-align: center;
+    border: solid 12px #fff;
+    background-color: $charcoal;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: tk-europa, europe, helvetica, sans-serif;
+    color: $key-yellow;
 }
